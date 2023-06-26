@@ -30,7 +30,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = ['codestar1986-cc1b06e98e4f.herokuapp.com', 'localhost']
 ALLOWED_HOSTS = ['8000-krandon1986-djangoblog-gz8ydtb2uwa.ws-eu100.gitpod.io']
