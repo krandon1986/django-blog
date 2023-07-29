@@ -18,7 +18,7 @@ body {
 }
 
 .light-bg {
-    background-color: #fff;
+    background-color: #110b0b77;
 }
 
 .dark-bg {
@@ -26,7 +26,7 @@ body {
 }
 
 .main-bg {
-    background-color: #F9FAFC;
+    background-color: #f9f9fc;
 }
 
 .card {
@@ -129,14 +129,14 @@ body {
 }
 
 .btn-like {
-    color: #E84610;
+    color: #e81b10;
     border: none;
     background: transparent;
 }
 
 .btn-like:hover,
 .btn-like:active {
-    color: #E84610;
+    color: #e81010;
     background: transparent;
     border: none;
 }
